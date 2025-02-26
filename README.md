@@ -1,9 +1,9 @@
+# Stackblitz-boilerplate-code
+
 You have been hired by a local restaurant to develop a simplified backend system for managing their online menu. The restaurant needs the following functionality:
 
 - Add new menu items to their database.
-
 - Each menu item should have a **name, description, price.**
-
 - The staff should be able to retrieve a list of every item currently in the menu database.  
 
 ## Instructions:
@@ -21,15 +21,7 @@ You need to install all the necessary packages required for the task.
 ### MongoDB Atlas Connection
 
 - Create a MongoDB Atlas account and set up a free cluster.
-Use Mongoose to connect your Express server to the MongoDB Atlas cluster.
-
-### Routes / Endpoints
-
-- POST /menu: Creates a new menu item in the database.
-- Accepts the required fields in the request body.
-- Responds with a success message and the newly created object (or an error message if something goes wrong).
-GET /menu: Fetches the entire list of menu items.
-Responds with an array of MenuItem objects (or an error message if something goes wrong).
+- Use Mongoose to connect your Express server to the MongoDB Atlas cluster.
 
 ### Routes / Endpoints
 
@@ -45,12 +37,11 @@ Responds with an array of MenuItem objects (or an error message if something goe
 - Implement basic validation in Mongoose or in the request-handling logic (e.g., required fields).
 - Return a descriptive error message if the required data is missing or incorrect.
 
-
-# **How to Fork and Set Up Your Repository**
+## **How to Fork and Set Up Your Repository**
 
 ---
 
-## **1. Fork the Repository on StackBlitz**
+### **1. Fork the Repository on StackBlitz**
 
 - You will be provided with a **StackBlitz** link for the assignment.
 - Open the link in your browser and click on the **Fork** button in StackBlitz.  
@@ -58,7 +49,7 @@ Responds with an array of MenuItem objects (or an error message if something goe
 
 ---
 
-## **2. Clone the Repository to Your Personal GitHub**
+### **2. Clone the Repository to Your Personal GitHub**
 
 - After forking, you can download the project or push it directly to your personal GitHub repository:
   - **Option 1: Download and Push**
@@ -80,7 +71,7 @@ Responds with an array of MenuItem objects (or an error message if something goe
 
 ---
 
-## **3. Submission Instructions**
+### **3. Submission Instructions**
 
 - Once your code is successfully pushed to GitHub:
   1. Copy the link to your GitHub repository.
